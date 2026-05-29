@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>TF's apps | スマホアプリ開発者サイト</title>
+  <meta name="description" content="滋賀で活動するアプリの個人開発者 TF's apps の公式サイト。Google PlayおよびApp Storeで公開中のAndroid・iOSアプリ一覧。">
+  <meta property="og:title" content="TF's apps - App Developer">
+  <meta property="og:description" content="滋賀で活動するアプリの個人開発者です。皆さまの役に立てればと考えアプリを作成しています。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://tfs-apps-one.github.io/">
+  <link rel="canonical" href="https://tfs-apps-one.github.io/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700;900&family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header id="site-header">
+    <div class="header-inner">
+      <a href="#top" class="header-logo" aria-label="TF's apps ホームへ">
+        <img src="assets/images/logo.png" alt="TF'S APPS" class="logo-img">
+      </a>
+      <nav class="header-nav" aria-label="サイトナビゲーション">
+        <ul>
+          <li><a href="#about" id="nav-about">About / 私たちについて</a></li>
+          <li><a href="#apps" id="nav-apps">Apps / アプリ一覧</a></li>
+          <li><a href="#privacy" id="nav-privacy">Privacy Policy</a></li>
+          <li><a href="#links" id="nav-links">Links</a></li>
+        </ul>
+      </nav>
+      <button class="hamburger" id="hamburger-btn" aria-label="メニューを開く" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section id="top" class="hero">
+    <div class="hero-bg-overlay"></div>
+    <div class="hero-particles" aria-hidden="true">
+      <div class="particle p1"></div>
+      <div class="particle p2"></div>
+      <div class="particle p3"></div>
+      <div class="particle p4"></div>
+      <div class="particle p5"></div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-logo-wrap fade-in">
+        <img src="assets/images/logo.png" alt="TF'S APPS" class="hero-logo-img">
+      </div>
+      <h1 class="hero-title fade-in delay-1">
+        TF's appsが作成した<br>アプリを公開
+      </h1>
+      <p class="hero-subtitle fade-in delay-2">
+        Apps created by TF's apps
+      </p>
+      <div class="hero-actions fade-in delay-3">
+        <a href="#apps" class="btn btn-primary" id="hero-apps-btn">アプリを見る / View Apps</a>
+        <a href="#about" class="btn btn-secondary" id="hero-about-btn">About</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint" aria-hidden="true">
+      <div class="scroll-arrow"></div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section about-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">About / 私たちについて</span>
+        <h2 class="section-title">TF's apps について</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="about-content reveal">
+        <div class="about-icon">
+          <img src="assets/images/logo.png" alt="TF's APPS logo" class="about-logo">
+        </div>
+        <div class="about-text">
+          <p class="about-main-text">
+            滋賀で活動するアプリの個人開発者です。<br>
+            皆さまの役に立てればと考えアプリを作成しています。
+          </p>
+          <p class="about-main-text-en">
+            I am an independent app developer based in Shiga, Japan.<br>
+            I create apps hoping they will be useful to everyone.
+          </p>
+          <p class="about-sub-text">
+            公開アプリに対する改善のご要望があればご意見下さい。<br>
+            良いアプリに成長させていきたいと考えます。
+          </p>
+          <p class="about-sub-text-en">
+            If you have any requests for improvement on published apps, please share your feedback.<br>
+            I aim to make them grow into great apps.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== APPS ===== -->
+  <section id="apps" class="section apps-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Apps / アプリ一覧（公開中）</span>
+        <h2 class="section-title">公開中のアプリ</h2>
+        <p class="section-subtitle">アイコンタップでダウンロードサイトへ<br><span>Tap the icon to go to the download page</span></p>
+        <div class="section-divider"></div>
+      </div>
+
+      <!-- Android -->
+      <div class="platform-block reveal">
+        <h3 class="platform-title">
+          <img src="https://img.icons8.com/color/48/android-os.png" alt="" aria-hidden="true" width="32" height="32"> Android アプリ
+        </h3>
+        <div class="apps-grid" id="android-apps-grid">
+
+          <div class="app-card reveal-card">
+            <a href="https://play.google.com/store/apps/details?id=apps.ft.beastbuster" target="_blank" rel="noreferrer noopener" class="app-card-link" id="app-beastbuster">
+              <div class="app-icon-wrap">
+                <img src="https://static.wixstatic.com/media/1fd05c_a187ecb271944330b29685d3d9725b7c~mv2.png/v1/fill/w_198,h_192,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202024-09-11%2021_06_14.png" alt="熊鈴アプリアイコン" class="app-icon" loading="lazy">
+              </div>
+              <div class="app-info">
+                <p class="app-name">熊鈴（鈴音、雷鳴音、ライト通知）</p>
+                <span class="app-badge badge-android">Google Play</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="app-card reveal-card">
+            <a href="https://play.google.com/store/apps/details?id=tfsapps.loveprice" target="_blank" rel="noreferrer noopener" class="app-card-link" id="app-loveprice">
+              <div class="app-icon-wrap">
+                <img src="https://static.wixstatic.com/media/1fd05c_b32d7a4cb493483a8dbc8c9c867bf170~mv2.png/v1/fill/w_202,h_193,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202024-09-11%2021_13_16.png" alt="価格比較アプリアイコン" class="app-icon" loading="lazy">
+              </div>
+              <div class="app-info">
+                <p class="app-name">価格比較 どちらがお得（金額計算アプリ）</p>
+                <span class="app-badge badge-android">Google Play</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="app-card reveal-card">
+            <a href="https://play.google.com/store/apps/details?id=security.alarm" target="_blank" rel="noreferrer noopener" class="app-card-link" id="app-security-alarm">
+              <div class="app-icon-wrap">
+                <img src="https://static.wixstatic.com/media/1fd05c_6657f947ffc74a02a7563ac86a1b2e7a~mv2.png/v1/fill/w_190,h_195,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202024-09-11%2021_15_04.png" alt="防犯アラームアプリアイコン" class="app-icon" loading="lazy">
+              </div>
+              <div class="app-info">
+                <p class="app-name">防犯アラーム＆助けてメール送信（現在地付き） 災害や犯罪対策</p>
+                <span class="app-badge badge-android">Google Play</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="app-card reveal-card">
+            <a href="https://play.google.com/store/apps/details?id=tfsapps.lovepriceplus" target="_blank" rel="noreferrer noopener" class="app-card-link" id="app-loveprice-plus">
+              <div class="app-icon-wrap">
+                <img src="https://static.wixstatic.com/media/1fd05c_c8e20fdb2da94fdc90638301b42c5729~mv2.png/v1/fill/w_192,h_197,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202024-09-11%2021_17_00.png" alt="価格比較Plusアプリアイコン" class="app-icon" loading="lazy">
+              </div>
+              <div class="app-info">
+                <p class="app-name">価格比較 どちらがお得 Plus（金額計算アプリ）</p>
+                <span class="app-badge badge-android">Google Play</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="app-card reveal-card">
+            <a href="https://play.google.com/store/apps/details?id=tfsapps.securityalarmplus" target="_blank" rel="noreferrer noopener" class="app-card-link" id="app-security-plus">
+              <div class="app-icon-wrap">
+                <img src="https://static.wixstatic.com/media/1fd05c_ba4e5279d329437bbe9ab8c3a280785e~mv2.png/v1/fill/w_198,h_204,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202024-09-11%2021_18_02.png" alt="防犯アラームPlusアプリアイコン" class="app-icon" loading="lazy">
+              </div>
+              <div class="app-info">
+                <p class="app-name">防犯アラーム＆助けてメール送信 Plus（現在地付き）</p>
+                <span class="app-badge badge-android">Google Play</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="app-card reveal-card">
+            <a href="https://play.google.com/store/apps/details?id=tfsapps.noticetimer" target="_blank" rel="noreferrer noopener" class="app-card-link" id="app-notice-timer">
+              <div class="app-icon-wrap">
+                <img src="https://static.wixstatic.com/media/1fd05c_6cd32b89ff7c42848b0fe03b3279f5f3~mv2.png/v1/fill/w_188,h_188,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202024-09-11%2021_19_08.png" alt="通知タイマーアプリアイコン" class="app-icon" loading="lazy">
+              </div>
+              <div class="app-info">
+                <p class="app-name">通知タイマー（音・ライト・振動で通知）</p>
+                <span class="app-badge badge-android">Google Play</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="app-card reveal-card">
+            <a href="https://play.google.com/store/apps/details?id=tfsapps.lightblink" target="_blank" rel="noreferrer noopener" class="app-card-link" id="app-lightblink">
+              <div class="app-icon-wrap">
+                <img src="https://static.wixstatic.com/media/1fd05c_f318033e2fb245fe9808bf5f580293a7~mv2.png/v1/fill/w_196,h_199,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202024-09-11%2021_20_07.png" alt="点滅ライトアプリアイコン" class="app-icon" loading="lazy">
+              </div>
+              <div class="app-info">
+                <p class="app-name">点滅ライト 点滅間隔設定</p>
+                <span class="app-badge badge-android">Google Play</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="app-card reveal-card">
+            <a href="https://play.google.com/store/apps/details?id=tfsapps.watertimer" target="_blank" rel="noreferrer noopener" class="app-card-link" id="app-watertimer">
+              <div class="app-icon-wrap">
+                <img src="https://static.wixstatic.com/media/1fd05c_7004f83de0fb4fa699c42392627e554a~mv2.png/v1/fill/w_200,h_200,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202024-09-12%2021_12_09.png" alt="水分補給タイマーアプリアイコン" class="app-icon" loading="lazy">
+              </div>
+              <div class="app-info">
+                <p class="app-name">水分補給タイマー 通知による熱中症予防</p>
+                <span class="app-badge badge-android">Google Play</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="app-card reveal-card">
+            <a href="https://play.google.com/store/apps/details?id=tfsapps.noticeme" target="_blank" rel="noreferrer noopener" class="app-card-link" id="app-noticeme">
+              <div class="app-icon-wrap">
+                <img src="https://static.wixstatic.com/media/1fd05c_478e030428f945d8ad4ae5e52faa3ccd~mv2.png/v1/fill/w_204,h_202,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202024-09-12%2021_13_55.png" alt="災害対策アプリアイコン" class="app-icon" loading="lazy">
+              </div>
+              <div class="app-info">
+                <p class="app-name">災害対策 気づいて通知（地震、台風、大雨、大雪に）</p>
+                <span class="app-badge badge-android">Google Play</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="app-card reveal-card">
+            <a href="https://play.google.com/store/apps/details?id=tfsapps.stressattack" target="_blank" rel="noreferrer noopener" class="app-card-link" id="app-stress">
+              <div class="app-icon-wrap">
+                <img src="https://static.wixstatic.com/media/1fd05c_0056a9ec3739431a8cb2187e0b431e6b~mv2.png/v1/fill/w_196,h_194,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202024-09-12%2021_15_57.png" alt="ストレス発散アプリアイコン" class="app-icon" loading="lazy">
+              </div>
+              <div class="app-info">
+                <p class="app-name">ストレス発散・解消 ストレスクエスト</p>
+                <span class="app-badge badge-android">Google Play</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="app-card reveal-card">
+            <a href="https://play.google.com/store/apps/details?id=tfsapps.treasurehunt" target="_blank" rel="noreferrer noopener" class="app-card-link" id="app-treasure">
+              <div class="app-icon-wrap">
+                <img src="https://static.wixstatic.com/media/1fd05c_9fd195c715a04fc5b2df7acafa663400~mv2.png/v1/fill/w_194,h_194,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202024-09-12%2021_17_32.png" alt="勇者の宝探しアプリアイコン" class="app-icon" loading="lazy">
+              </div>
+              <div class="app-info">
+                <p class="app-name">勇者の宝探し（鬼退治）</p>
+                <span class="app-badge badge-android">Google Play</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="app-card reveal-card">
+            <a href="https://play.google.com/store/apps/details?id=tfsapps.smilechecker" target="_blank" rel="noreferrer noopener" class="app-card-link" id="app-smile">
+              <div class="app-icon-wrap">
+                <img src="https://static.wixstatic.com/media/1fd05c_af3fd9e2b90d4a6ea7710c2285aa2e30~mv2.png/v1/fill/w_196,h_194,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202025-03-06%2014_54_05.png" alt="AIスマイル診断アプリアイコン" class="app-icon" loading="lazy">
+              </div>
+              <div class="app-info">
+                <p class="app-name">AIスマイル診断</p>
+                <span class="app-badge badge-android">Google Play</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="app-card reveal-card">
+            <a href="https://play.google.com/store/apps/details?id=tfsapps.timecostcal" target="_blank" rel="noreferrer noopener" class="app-card-link" id="app-timecost">
+              <div class="app-icon-wrap">
+                <img src="https://static.wixstatic.com/media/1fd05c_a4c60144f251499e8d7f3b3a613d5227~mv2.png/v1/fill/w_194,h_194,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202025-02-24%2016_01_05.png" alt="時間コスト計算機アプリアイコン" class="app-icon" loading="lazy">
+              </div>
+              <div class="app-info">
+                <p class="app-name">時間コスト計算機</p>
+                <span class="app-badge badge-android">Google Play</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="app-card reveal-card">
+            <a href="https://play.google.com/store/apps/details?id=tfsapps.formbaseballai" target="_blank" rel="noreferrer noopener" class="app-card-link" id="app-baseball">
+              <div class="app-icon-wrap">
+                <img src="https://static.wixstatic.com/media/1fd05c_57cae69621864e788894196fd3622b78~mv2.png/v1/fill/w_194,h_188,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202026-05-09%2015_30_57.png" alt="AI野球フォーム診断アプリアイコン" class="app-icon" loading="lazy">
+              </div>
+              <div class="app-info">
+                <p class="app-name">AI野球フォーム診断：バッティング＆ピッチング解析</p>
+                <span class="app-badge badge-android">Google Play</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="app-card reveal-card">
+            <a href="https://play.google.com/store/apps/details?id=tfsapps.beastbusterpro" target="_blank" rel="noreferrer noopener" class="app-card-link" id="app-beastbusterpro">
+              <div class="app-icon-wrap">
+                <img src="https://static.wixstatic.com/media/1fd05c_05b9461285c44026a52b9242f9d9f733~mv2.png/v1/fill/w_200,h_196,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202024-09-12%2021_22_27.png" alt="熊鈴Proアプリアイコン" class="app-icon" loading="lazy">
+              </div>
+              <div class="app-info">
+                <p class="app-name">熊鈴 Pro（鈴音、雷鳴音、ライト通知）</p>
+                <span class="app-badge badge-android">Google Play</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="app-card reveal-card">
+            <a href="https://play.google.com/store/apps/details?id=tfsapps.combatpowerchecker" target="_blank" rel="noreferrer noopener" class="app-card-link" id="app-combatpower">
+              <div class="app-icon-wrap">
+                <img src="assets/images/icon_combatpower.png" alt="戦闘力チェッカーアプリアイコン" class="app-icon" loading="lazy">
+              </div>
+              <div class="app-info">
+                <p class="app-name">戦闘力チェッカー（AIスカウター診断）</p>
+                <span class="app-badge badge-android">Google Play</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="app-card reveal-card">
+            <a href="https://play.google.com/store/apps/details?id=tfsapps.aiallergychecker" target="_blank" rel="noreferrer noopener" class="app-card-link" id="app-aiallergy">
+              <div class="app-icon-wrap">
+                <img src="assets/images/icon_aiallergy.png" alt="AIアレルギーチェッカーアプリアイコン" class="app-icon" loading="lazy">
+              </div>
+              <div class="app-info">
+                <p class="app-name">AIアレルギーチェッカー</p>
+                <span class="app-badge badge-android">Google Play</span>
+              </div>
+            </a>
+          </div>
+
+        </div><!-- /.apps-grid -->
+      </div><!-- /.platform-block Android -->
+
+      <!-- iOS -->
+      <div class="platform-block reveal" style="margin-top:3rem;">
+        <h3 class="platform-title ios-title">
+          <img src="https://img.icons8.com/color/48/mac-os.png" alt="" aria-hidden="true" width="32" height="32"> iOS アプリ
+        </h3>
+        <div class="apps-grid" id="ios-apps-grid">
+
+          <div class="app-card reveal-card">
+            <a href="https://itunes.apple.com/jp/app/id6642689991?mt=8" target="_blank" rel="noreferrer noopener" class="app-card-link" id="app-ios-beastbuster">
+              <div class="app-icon-wrap">
+                <img src="https://static.wixstatic.com/media/1fd05c_a187ecb271944330b29685d3d9725b7c~mv2.png/v1/fill/w_198,h_192,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88%202024-09-11%2021_06_14.png" alt="熊鈴iOSアプリアイコン" class="app-icon" loading="lazy">
+              </div>
+              <div class="app-info">
+                <p class="app-name">熊鈴（鈴音、雷鳴音、ライト通知）</p>
+                <span class="app-badge badge-ios">App Store</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="app-card reveal-card">
+            <a href="https://itunes.apple.com/jp/app/id6705126566?mt=8" target="_blank" rel="noreferrer noopener" class="app-card-link" id="app-ios-loveprice">
+              <div class="app-icon-wrap">
+                <img src="https://static.wixstatic.com/media/1fd05c_8972de949a4b4d0d95c4f9022b066fab~mv2.png/v1/fill/w_198,h_198,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/lp256.png" alt="価格比較iOSアプリアイコン" class="app-icon" loading="lazy">
+              </div>
+              <div class="app-info">
+                <p class="app-name">価格比較 どちらがお得（金額計算アプリ）</p>
+                <span class="app-badge badge-ios">App Store</span>
+              </div>
+            </a>
+          </div>
+
+          <div class="app-card reveal-card">
+            <a href="https://itunes.apple.com/jp/app/id6761318302?mt=8" target="_blank" rel="noreferrer noopener" class="app-card-link" id="app-ios-noticetimer">
+              <div class="app-icon-wrap">
+                <img src="https://static.wixstatic.com/media/1fd05c_6954aa7647e742eca48b6fe754318730~mv2.png/v1/fill/w_198,h_198,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/nt512.png" alt="通知タイマーiOSアプリアイコン" class="app-icon" loading="lazy">
+              </div>
+              <div class="app-info">
+                <p class="app-name">通知タイマー（音・ライト・振動で通知）</p>
+                <span class="app-badge badge-ios">App Store</span>
+              </div>
+            </a>
+          </div>
+
+        </div>
+      </div><!-- /.platform-block iOS -->
+
+    </div><!-- /.container -->
+  </section>
+
+  <!-- ===== PRIVACY POLICY ===== -->
+  <section id="privacy" class="section privacy-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Privacy Policy / プライバシーポリシー</span>
+        <h2 class="section-title">プライバシーポリシー</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="privacy-content reveal">
+
+        <p>本プライバシーポリシーは、TF's apps（以下「当開発者」といいます）が提供するスマートフォン向けアプリケーション（以下「本アプリ」といいます）における、ユーザーの情報の取り扱いについて定めるものです。</p>
+
+        <!-- 1 -->
+        <h3>1. 収集する情報およびその利用目的</h3>
+        <p>本アプリでは、提供する機能に応じて、以下の情報を取得・利用する場合があります。</p>
+
+        <div class="privacy-item">
+          <p class="privacy-item-title">① アレルギー情報および健康に関するデータ</p>
+          <p class="privacy-item-note">対象アプリの例：「アレルギーチェッカー」</p>
+          <ul>
+            <li><strong>アクセス・取得する情報：</strong>食品等の原材料表示の撮影画像、ユーザーが選択・入力したアレルギー物質の情報</li>
+            <li><strong>利用目的：</strong>アプリ内でのアレルギー物質の照合、判定、および結果表示など、アプリのメイン機能を提供するためにのみ利用します。</li>
+            <li><strong>取り扱い：</strong>ユーザーが入力したアレルギー情報や、カメラで撮影された原材料の画像データは、すべてユーザーの端末内（ローカル環境）でのみ処理・保存されます。当開発者がこれらの健康に関するデータを収集したり、外部のサーバーに送信・蓄積したりすることは一切ありません。また、広告の最適化や第三者への提供に利用することもありません。</li>
+          </ul>
+        </div>
+
+        <div class="privacy-item">
+          <p class="privacy-item-title">② 位置情報（GPS・ネットワーク基地局情報）</p>
+          <p class="privacy-item-note">対象アプリの例：「防犯アラーム＆助けてメール送信」など</p>
+          <ul>
+            <li><strong>利用目的：</strong>アプリのメイン機能である「現在地の取得およびメール等への添付機能」を正しく動作させるために利用します。</li>
+            <li><strong>取り扱い：</strong>位置情報はユーザーの端末内でのみ処理、またはユーザーが指定した送信先にのみ送信され、当開発者のサーバー等に収集・蓄積されることはありません。</li>
+          </ul>
+        </div>
+
+        <div class="privacy-item">
+          <p class="privacy-item-title">③ デバイスの機能・センサーへのアクセス</p>
+          <p class="privacy-item-note">対象アプリの例：「熊鈴」「点滅ライト」「通知タイマー」「AIスマイル診断」「AI野球フォーム診断」など</p>
+          <ul>
+            <li><strong>アクセスする機能：</strong>カメラ（ライト点滅・顔認識/画像解析用）、バイブレーション、ジャイロセンサー、スピーカー/オーディオ設定</li>
+            <li><strong>利用目的：</strong>ライトの点滅、通知時の振動、各種センサーによる動作検知、およびカメラを用いたAI診断機能（笑顔やフォームの解析）など、アプリの各機能を実現するためにのみ利用します。</li>
+            <li><strong>取り扱い：</strong>カメラを通じて取得された画像・映像データやセンサーデータは、端末内でのリアルタイムな解析にのみ使用され、外部のサーバーに送信・保存されることはありません。</li>
+          </ul>
+        </div>
+
+        <div class="privacy-item">
+          <p class="privacy-item-title">④ メールアドレス</p>
+          <p class="privacy-item-note">対象アプリの例：「防犯アラーム＆助けてメール送信」など</p>
+          <ul>
+            <li><strong>利用目的：</strong>ユーザー自身が設定した緊急連絡先などへのメール送信機能を利用する際に必要となります。</li>
+            <li><strong>取り扱い：</strong>この情報はユーザー自身がアプリ内に登録・管理するものであり、当開発者がこれを収集したり、他の目的に利用したりすることはありません。</li>
+          </ul>
+        </div>
+
+        <div class="privacy-item">
+          <p class="privacy-item-title">⑤ 広告識別子（IDFA / Google 広告 ID）および端末情報</p>
+          <p class="privacy-item-note">対象アプリの例：無料版の各種アプリ・ゲーム</p>
+          <ul>
+            <li><strong>利用目的：</strong>アプリ内での広告配信、および広告の効果測定のために利用します。</li>
+            <li><strong>取り扱い：</strong>サードパーティの広告配信事業者が自動的に取得する場合があります（詳細は「3. 広告の配信について」をご確認ください）。</li>
+          </ul>
+        </div>
+
+        <!-- 2 -->
+        <h3>2. お問い合わせ時に取得する情報</h3>
+        <p>ユーザーからのお問い合わせ（メール等）の際、以下の情報を取得する場合があります。</p>
+        <ul>
+          <li><strong>取得情報：</strong>メールアドレス、端末機種名、OSバージョン、お問い合わせ内容</li>
+          <li><strong>利用目的：</strong>お寄せいただいたお問い合わせやフィードバックへの対応、およびアプリの不具合改善のためにのみ利用します。</li>
+        </ul>
+
+        <!-- 3 -->
+        <h3>3. 広告の配信について</h3>
+        <p>本アプリ（無料版）では、第三者配信の広告サービス（Google AdMobなど）を利用して広告を掲載する場合があります。これに伴い、広告配信事業者がユーザーの広告識別子や端末情報を自動的に取得することがあります。これらの情報は、ユーザーに関連性の高い広告を表示する目的、および広告の効果測定のためにのみ利用されます。</p>
+        <p>各広告配信事業者が取得する情報の詳細や、広告の最適化（パーソナライズ広告）を無効化する手順については、以下の各社のプライバシーポリシー等をご確認ください。</p>
+        <ul>
+          <li><strong>Google AdMob（Google LLC）：</strong><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer" class="privacy-link" id="privacy-google-link">Google プライバシーポリシーと規約</a></li>
+        </ul>
+
+        <!-- 4 -->
+        <h3>4. 情報の第三者提供・共有</h3>
+        <p>当開発者は、以下の場合を除き、ユーザーの個人情報を第三者に提供または共有することはありません。</p>
+        <ul>
+          <li>ユーザーの同意がある場合</li>
+          <li>法令に基づく義務を履行するために必要な場合</li>
+          <li>生命、身体、または財産の保護のために必要であり、本人の同意を得ることが困難である場合</li>
+        </ul>
+
+        <!-- 5 -->
+        <h3>5. 免責事項（重要なお知らせ）</h3>
+        <p>当開発者は、本アプリの不具合の修正や機能改善に努めますが、本アプリが提供する情報（アレルギー判定結果等を含む）の完全性、正確性、有用性について保証するものではありません。本アプリの判定結果はあくまで補助的な参考情報としてご利用いただき、最終的な安全性の確認は、必ずご自身でパッケージの原材料表記を確認するか、製造元へお問い合わせください。</p>
+        <p>本アプリのご利用により生じた直接的・間接的な損害、体調不良、トラブル等について、当開発者の故意または重大な過失がある場合を除き、一切の責任を負いません。各種アラーム機能や野生動物対策機能等を含め、各自の責任においてご利用ください。</p>
+
+        <!-- 6 -->
+        <h3>6. プライバシーポリシーの変更</h3>
+        <p>当開発者は、法令の改正やアプリのアップデート等に伴い、本プライバシーポリシーをいつでも変更することができるものとします。変更後のプライバシーポリシーは、本ページまたはアプリ内に掲載された時点から効力を生じるものとします。</p>
+
+        <!-- 7 -->
+        <h3>7. お問い合わせ先</h3>
+        <p>本プライバシーポリシー、または本アプリにおけるユーザー情報の取り扱いに関するご質問、ご相談、お問い合わせは、以下の窓口（またはGoogle Playストアに記載のデベロッパー連絡先メールアドレス）までご連絡ください。</p>
+        <div class="contact-box">
+          <p class="contact-name">開発者名：TF's apps</p>
+          <p class="contact-label">連絡先メールアドレス：</p>
+          <a href="mailto:furu12080205@gmail.com" class="contact-email" id="contact-email-link">furu12080205@gmail.com</a>
+          <p class="privacy-revised">（改定日：2026年5月29日）</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== LINKS ===== -->
+  <section id="links" class="section links-section">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Links / リンク</span>
+        <h2 class="section-title">関連リンク</h2>
+        <div class="section-divider"></div>
+      </div>
+      <div class="links-grid reveal">
+        <a href="https://www.tfsappsone.com/" target="_blank" rel="noopener" class="link-card" id="link-weekend">
+          <div class="link-icon">📱</div>
+          <div class="link-text">
+            <span class="link-title">週末のアプリ作成</span>
+            <span class="link-url">tfsappsone.com</span>
+          </div>
+        </a>
+        <a href="https://play.google.com/store/apps" target="_blank" rel="noreferrer noopener" class="link-card" id="link-google-play">
+          <div class="link-icon">🤖</div>
+          <div class="link-text">
+            <span class="link-title">Google Play</span>
+            <span class="link-url">play.google.com</span>
+          </div>
+        </a>
+        <a href="https://www.apple.com/jp/app-store/" target="_blank" rel="noreferrer noopener" class="link-card" id="link-app-store">
+          <div class="link-icon">🍎</div>
+          <div class="link-text">
+            <span class="link-title">App Store</span>
+            <span class="link-url">apple.com/jp/app-store</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <img src="assets/images/logo.png" alt="TF'S APPS" class="footer-logo-img">
+      </div>
+      <p class="footer-copy">&copy; 2026 TF's apps. All rights reserved.</p>
+      <nav class="footer-nav" aria-label="フッターナビゲーション">
+        <a href="#about">About</a>
+        <a href="#apps">Apps</a>
+        <a href="#privacy">Privacy Policy</a>
+        <a href="mailto:furu12080205@gmail.com">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
